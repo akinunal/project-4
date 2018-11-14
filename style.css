@@ -1,0 +1,277 @@
+/* ------------------------------ */
+/* BASIC SETUP */
+/* ------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #fff;;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+section {
+    padding: 100px 0;
+}
+
+/* ------------------------------ */
+/* REUSABLE COMPONENTS */
+/* ------------------------------ */
+
+.row {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ------------------------------ */
+/* HEADER */
+/* ------------------------------ */
+
+.ion-ios-paw-outline {
+    font-size: 300%;
+}
+
+.navigation {
+    background-color: #313131;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 2;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-color: #444;
+}
+
+.nav-ul a {
+    padding: 16px 75px;
+    flex-wrap: wrap;
+}
+
+.nav-ul li {
+    margin: -2px;
+}
+
+.nav-ul li:first-child a {
+    border-bottom: 5px solid #00b593;
+    color: #00b593;
+}
+
+.nav-ul li a:hover {
+    border-bottom: 5px solid #00b593;
+}
+
+.nav-ul li {
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 110%;
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-links {
+    flex-basis: 70%;
+}
+
+.nav-icons i {
+    font-size: 130%;
+    padding-right: 20px;
+}
+
+.nav-icons a:hover,
+.nav-links a:hover,
+.nav-logo a:hover {
+    color: #0aa285;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 150%;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+.container-texts h4 {
+    font-size: 130%;
+}
+
+.container-texts h1 {
+    font-size: 300%;
+}
+
+.container-logo {
+    font-size: 200%;
+    margin-bottom: 40px;
+}
+
+.container-texts {
+    margin-bottom: 40px;
+}
+
+.container-links {
+    font-size: 80%;
+    flex-basis: 20%;
+    display: inline-flex;
+    justify-content: center;
+    text-transform: none;
+}
+
+.container-links a {
+    padding: 10px 20px;
+}
+
+.container-links a:first-child {
+    background-color: #0aa285;
+    border: 1px solid #0aa285;
+    margin-right: 20px;
+}
+
+.container-links a:last-child {
+    background-color: #313131;
+    border: 1px solid #313131;
+}
+
+.container-links a:hover {
+    zoom: 1.02;
+    opacity: 0.85;
+}
+
+/* ------------------------------ */
+/* SECTION ABOUT */
+/* ------------------------------ */
+
+.section-about {
+    background-color: rgba(0,0,0,.2);
+    color: #222;
+    text-align: center;
+}
+
+h3{
+    font-size: 180%;
+    font-weight: 200;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me {
+    text-align: left;
+    max-width: 50%;
+}
+
+.about-me p {
+    letter-spacing: 1px;
+    font-size: 90%;
+    font-weight: 300;
+    padding-bottom: 10px;
+    line-height: 22px;
+}
+
+.education {
+    text-align: right;
+    max-width: 18%;
+}
+
+.text-underline {
+    background-color: #000;
+    height: 1px;
+    width: 40px;
+    margin: 10px 0 14px 0;
+    display: block;
+}
+
+.text-underline-right {
+    margin-left: auto;
+}
+
+.education h5 {
+    font-size: 115%;
+    font-weight: 200;
+    padding-bottom: 5px;
+}
+
+.education p {
+    font-size: 90%;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.skills {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.skills i {
+    font-size: 300%;
+    padding: 0 10px;
+}
+
+.skills i:hover {
+    color: #0aa285;
+}
+
+/* ------------------------------ */
+/* SECTION CONTACT */
+/* ------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
